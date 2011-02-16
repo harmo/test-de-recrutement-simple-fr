@@ -11,7 +11,8 @@ Principe
 Pour préparer votre test, il suffit de :
 
 	$ git clone https://github.com/duboisnicolas/test-de-recrutement-simple-fr.git
-	$ rm -rf test-de-recrutement-simple-fr/solution
+	$ cd test-de-recrutement-simple-fr/
+	$ rm -rf solution
 
 L'énoncé se trouve dans `docs/fr/Énoncé.pdf`.
 
@@ -38,4 +39,4 @@ tests unitaires ;
 Auteur
 ------
 
-Nicolas Dubois <ndubois@amg-dev.fr>
+Nicolas Dubois (ndubois@amg-dev.fr)
