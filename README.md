@@ -1,7 +1,7 @@
-Test de recrutement simple
-==========================
+Test de recrutement (simple)
+============================
 
-Ce dépôt propose un test de recrutement simple pour évaluer les 
+Ce dépôt propose un test de recrutement (simple) pour évaluer les 
 compétences du candidat en programmation orientée objet (POO) avec une 
 approche dirigée par les tests (TDD).
 
@@ -11,6 +11,7 @@ Principe
 Pour préparer votre test, il suffit de :
 
 	$ git clone https://github.com/duboisnicolas/test-de-recrutement-simple-fr.git
+	$ cd test-de-recrutement-simple-fr/
 	$ rm -rf solution
 
 L'énoncé se trouve dans `docs/fr/Énoncé.pdf`.
