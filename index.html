@@ -1,95 +1,92 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-<head>
 <meta charset="utf-8"> 
-    <title>Test de recrutement simple</title> 	<meta name="description" content="Ce dépôt propose un test de recrutement (simple) pour évaluer les compétences du candidat en programmation orientée objet (POO) avec une approche dirigée par les tests (TDD)." />
-	<meta name="author" content="Nicolas C. Dubois" />
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection" /> 
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print" /> 
-    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]--> 
-    <link rel="stylesheet" href="css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
-    <style type="text/css">
-    
-    </style>
-</head>
-<body>
-	<div class="container">
-	
-	<a href="https://github.com/duboisnicolas/test-de-recrutement-simple-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a> 
-	
-		<header>
-            <h1 id="test-de-recrutement-simple" class="prepend-top">Test de recrutement (simple)</h1>
-		</header>
+<title>Test de recrutement simple</title> <meta name="description" content="Ce dépôt propose un test de recrutement (simple) pour évaluer les compétences du candidat en programmation orientée objet (POO) avec une approche dirigée par les tests (TDD).">
+<meta name="author" content="Nicolas C. Dubois">
+<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+<link rel="stylesheet" href="css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+<link href='http://fonts.googleapis.com/css?family=Carter+One&v1' rel='stylesheet' type='text/css'>
+<style type="text/css">
+h1 { font-family: 'Carter One', arial, serif; }
+p.intro { font-size: 1.5em }
+</style>
+<div class="container">
 
-		<div id="main" role="main">
-		<hr />
-<h2 class="alt"
->Ce dépôt propose un test de recrutement (simple) pour évaluer les compétences du candidat en programmation orientée objet (POO) avec une approche dirigée par les tests (TDD).</h2>
-		<hr />
-		
-<div class="right">		
-Généré avec <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> depuis le fichier <a href="https://github.com/duboisnicolas/test-de-recrutement-simple-fr/blob/master/README.md">README.md</a>.
+<a href="https://github.com/duboisnicolas/test-de-recrutement-simple-fr"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a> 
+
+<header>
+    <h1 id="test-de-recrutement-simple" class="prepend-top">Test de recrutement (simple)</h1>
+</header>
+
+<section>
+<hr />
+<p class="intro alt"
+>Ce dépôt propose un test de recrutement (simple) pour évaluer les compétences du candidat en programmation orientée objet (POO) avec une approche dirigée par les tests (TDD).</p>
+<hr />
+	
+<div class="right quiet">		
+Page générée avec <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> depuis le fichier <a href="https://github.com/duboisnicolas/test-de-recrutement-simple-fr/blob/master/README.md">README.md</a>.
 </div>
-		
-<h3 id="principe">Principe</h3><p
+
+<h2 id="principe">Principe</h2><p
 >Pour préparer votre test, il suffit de :</p
 ><pre
 ><code
-  >$ git clone https://github.com/duboisnicolas/test-de-recrutement-simple-fr.git
+>$ git clone https://github.com/duboisnicolas/test-de-recrutement-simple-fr.git
 $ cd test-de-recrutement-simple-fr/
 $ rm -rf solution
 </code
-  ></pre
+></pre
 ><p
 >L'énoncé se trouve dans <code
-  >docs/fr/Énoncé.pdf</code
-  >.</p
+>docs/fr/Énoncé.pdf</code
+>.</p
 ><p
 >Le candidat peut exécuter la série de tests en faisant :</p
 ><pre
 ><code
-  >$ cd tests/
+>$ cd tests/
 $ sh run_tests.sh
 </code
-  ></pre
-><h3 id="durée-du-test"
->Durée du test</h3><p
->30 minutes devraient suffire pour finir l'exercice.</p
-><h3 id="description-du-dépôt"
->Description du dépôt</h3><ul
-><li
-  ><code
-    >docs/</code
-    > contient l'énoncé en français ;</li
-  ><li
-  ><code
-    >lib/</code
-    > contient la librairie PHPUnit qui a servi à écrire la suite de tests unitaires ;</li
-  ><li
-  ><code
-    >solution/</code
-    > propose une solution possible au problème ;</li
-  ><li
-  ><code
-    >src/</code
-    > est le répertoire de travail du candidat (fichiers vides) ;</li
-  ><li
-  ><code
-    >tests/</code
-    > contient la suite de tests unitaires.</li
-  ></ul
+></pre
 >
-		</div>
-		<footer>
-            — <a href="http://twitter.com/duboisnicolas">Nicolas C. Dubois</a>
-		</footer>
-	</div>
 
-	<script>
-		var _gaq=[['_setAccount','UA-24125779-1'],['_trackPageview']];
-		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-		g.src='//www.google-analytics.com/ga.js';
-		s.parentNode.insertBefore(g,s)}(document,'script'));
-	</script>
-</body>
-</html>
+<h2 id="durée-du-test"
+>Durée du test</h2><p
+>30 minutes devraient suffire pour finir l'exercice.</p
+><h2 id="description-du-dépôt"
+>Description du dépôt</h2><ul
+><li
+><code
+>docs/</code
+> contient l'énoncé en français ;</li
+><li
+><code
+>lib/</code
+> contient la librairie PHPUnit qui a servi à écrire la suite de tests unitaires ;</li
+><li
+><code
+>solution/</code
+> propose une solution possible au problème ;</li
+><li
+><code
+>src/</code
+> est le répertoire de travail du candidat (fichiers vides) ;</li
+><li
+><code
+>tests/</code
+> contient la suite de tests unitaires.</li
+></ul
+>
+</section>
+	
+<footer>— <a href="http://twitter.com/duboisnicolas">Nicolas C. Dubois</a></footer>
+
+<script>
+	var _gaq=[['_setAccount','UA-24125779-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src='//www.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
